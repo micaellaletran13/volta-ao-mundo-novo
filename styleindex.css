@@ -1,0 +1,61 @@
+/* Corrigido de 'front' para uma classe válida '.front' */
+.front {
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+body {
+    background-color: black; /* Pode remover se não for necessário */
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#tudo {
+    display: block;
+    border: 1px solid black; /* Ajustado para uma borda com 1px de espessura */
+}
+
+#menu ul {
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+
+#menu ul li {
+    display: inline-block; /* Ajustado para inline-block para melhor controle */
+}
+
+#menu ul li a {
+    padding: 10px 15px; /* Ajustado para um padding mais consistente */
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#menu ul li a:hover {
+    color: #ffd700; /* Código hexadecimal para uma cor mais padrão */
+}
+
+.bandeira {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+#texto {
+    color: black;
+    margin-bottom: 500px;
+    margin-top: 40px;
+}
+
+#texto p {
+    font-size: 20px;
+    line-height: 1.5; /* Ajustado para uma altura de linha mais adequada */
+    margin-left: 15px;
+}
