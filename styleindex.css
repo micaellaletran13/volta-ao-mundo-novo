@@ -1,10 +1,10 @@
-/* Corrigido de 'front' para uma classe válida '.front' */
+
 .front {
     font-family: 'Shippori Antique', sans-serif;
 }
 
 body {
-    background-color: black; /* Pode remover se não for necessário */
+    background-color: black; 
     margin: 0;
     padding: 0;
     background-image: url(imagens/img.jpg);
@@ -15,7 +15,7 @@ body {
 
 #tudo {
     display: block;
-    border: 1px solid black; /* Ajustado para uma borda com 1px de espessura */
+    border: 1px solid black; 
 }
 
 #menu ul {
@@ -28,19 +28,18 @@ body {
 }
 
 #menu ul li {
-    display: inline-block; /* Ajustado para inline-block para melhor controle */
+    display: inline-block; 
 }
 
 #menu ul li a {
-    padding: 10px 15px; /* Ajustado para um padding mais consistente */
+    padding: 10px 15px; 
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
 #menu ul li a:hover {
-    color: #ffd700; /* Código hexadecimal para uma cor mais padrão */
-}
+    color: #ffd700; 
 
 .bandeira {
     display: block;
@@ -56,6 +55,6 @@ body {
 
 #texto p {
     font-size: 20px;
-    line-height: 1.5; /* Ajustado para uma altura de linha mais adequada */
+    line-height: 1.5; 
     margin-left: 15px;
 }
