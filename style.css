@@ -5,7 +5,7 @@
     }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(247, 232, 248, 0.89);
     margin:0px !important;
     padding: 0px !important; 
 }
@@ -18,10 +18,8 @@ body{
 }
 
 h1{
-    color: #e70800;
+    color: #cd0d0d;
 }
-
-/* MENU */
 
 #menu ul{
     padding:10px;
@@ -70,12 +68,11 @@ h1{
 }
 
 
-/* INFORMAÇÕES GERAIS */
-
 #mapa{
     float: left;
     margin-left: 20px;
     margin-right: 20px;
+    color: #cd0d0d;
 }
 
 #mapa h2{
@@ -90,10 +87,10 @@ h1{
 #geral h2{
     text-align: center;
     margin-bottom: 10px;
+    color: #cd0d0d;
 }
 
 
-/* CULTURA */
 
 #cultura{
     margin-left: 15px;
@@ -103,10 +100,24 @@ h1{
 #cultura h1{
     text-align: center;
 }
+#cultura h2{
+    text-align: center;
+   color: #cd0d0d;
+}
+#cultura h3{
+    text-align: center;
+}
 
 #cultura p{
     font-size: 20px;
+    text-align: center;
 }
+#cultura .displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 
 /* TURISMO */
 
@@ -132,11 +143,9 @@ h1{
 #turismo .displayed{
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto; 
 }
 
-
-/* PRATOS */
 
 #pratos{
     margin-left: 15px;
@@ -165,13 +174,9 @@ h1{
 }
 
 
-
-/* RODAPÉ */
-
 footer{
     background-color: #000000;
     padding: 01px;
-    margin-top: 200px;
 }
 
 footer h4{
@@ -179,6 +184,6 @@ footer h4{
     margin-left: 5px;
     text-decoration-style: bold;
     font-size: 15px;
-    text-align: center;
 }
+
 
